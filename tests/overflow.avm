@@ -1,0 +1,33 @@
+; -------------
+; exemple.avm -
+; -------------
+
+;push int8(100)
+;push int8(42)
+;dump
+;add
+;dump
+
+;push int16(-42)
+;push int16(-32742)
+;dump
+;add
+;dump
+
+;push int8(-100)
+;push int8(42)
+;dump
+;sub
+;dump
+
+;push int8(100)
+;push int8(-42)
+;dump
+;sub
+;dump
+
+;push int8(-100)
+;push int8(42)
+;dump
+;sub
+;dump

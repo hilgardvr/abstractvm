@@ -1,0 +1,19 @@
+; -------------
+; exemple.avm -
+; -------------
+
+push float(-6460)
+push float(100)
+dump
+mul
+assert float(-646000)
+pop
+dump
+push double(330000.50)
+push int16(42.42)
+div
+;assert double(330042.50)
+pop
+dump
+;error
+exit

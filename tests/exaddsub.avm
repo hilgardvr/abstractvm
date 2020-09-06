@@ -1,0 +1,23 @@
+; -------------
+; exemple.avm -
+; -------------
+push int8(8)
+push int16(16)
+push int32(32)
+push float(64)
+push double(128)
+add ;aommer
+assert double(192)
+push int8(44)
+sub
+assert double(148)
+pop
+assert int32(32)
+sub
+assert int32(-16)
+push int16(-32767)
+add
+assert int32(-32783)
+dump
+error
+;;
